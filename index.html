@@ -1,11 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="#">
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" />
+      </div>
+
+      <div>
+        <label for="select">Tēma:</label>
+        <select name="select" id="select">
+          <option value="">--Izvēlieties tēmu--</option>
+          <option value="techsupport">Tehniskais atbalsts</option>
+          <option value="offers">Piedāvājumi</option>
+          <option value="questions">Vispārīgi jautājumi</option>
+        </select>
+      </div>
+
+      <div>
+        <input type="checkbox" name="checkbox" id="checkbox" />
+        <label for="checkbox">Piekrītu saņemt jaunumus.</label>
+      </div>
+
+      <div><input type="submit" value="Apstiprināt" /></div>
+    </form>
+  </body>
 </html>
